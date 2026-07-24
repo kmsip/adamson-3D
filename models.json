@@ -1,5 +1,15 @@
 [
     {
+        "name": "Aabel / Abel",
+        "file": "aabel.glb",
+        "thumbnail": "thumbnails/aabel.jpg",
+        "info": {
+            "Eesti": "info/aabel-est.jpg",
+            "English": "info/aabel-eng.jpg",
+            "Русский": "info/aabel-rus.jpg"
+        }
+    },
+    {
         "name": "Gladiaatorid / Gladiators (1906)",
         "file": "gladiaatorid.glb",
         "thumbnail": "thumbnails/gladiaatorid.jpg",
