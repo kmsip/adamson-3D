@@ -70,6 +70,16 @@
             document.getElementById("model-name").textContent = "Mudelit pole valitud / No model selected";
         }
 
+        document
+            .getElementById("fullscreenButton")
+            .addEventListener("click", () => {
+
+                document
+                    .getElementById("viewer")
+                    .requestFullscreen();
+
+            });
+
     </script>
 
 </body>
