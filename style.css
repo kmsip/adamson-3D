@@ -50,6 +50,14 @@ header p {
 
 }
 
+footer {
+
+    text-align: center;
+
+    padding: 25px;
+
+}
+
 .model-grid {
 
     display: grid;
@@ -108,8 +116,34 @@ header p {
 
 model-viewer {
     width: 100%;
-    height: 75vh;
+
+    height: calc(100vh - 80px);
+
     background: #1a1a1a;
+}
+
+.viewer-page {
+
+    display: flex;
+
+    flex-direction: column;
+
+    height: 100vh;
+
+}
+
+.viewer-main {
+
+    flex: 1;
+
+}
+
+#viewer {
+
+    width: 100%;
+
+    height: 100%;
+
 }
 
 .back-button {
@@ -161,5 +195,69 @@ model-viewer {
     font-size: 20px;
 
     cursor: pointer;
+
+}
+
+#infoButton {
+
+    position: fixed;
+
+    right: 16px;
+
+    bottom: 20px;
+
+    width: 52px;
+
+    height: 52px;
+
+    border-radius: 50%;
+
+    border: none;
+
+    background: #222;
+
+    color: white;
+
+    font-size: 22px;
+
+    z-index: 100;
+
+}
+
+#infoOverlay {
+
+    display: none;
+
+}
+
+.credits-button {
+
+    display: inline-block;
+
+    background: #222;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 12px 24px;
+
+    border-radius: 30px;
+
+}
+
+.sources-button {
+
+    display: inline-block;
+
+    background: #222;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 12px 24px;
+
+    border-radius: 30px;
 
 }

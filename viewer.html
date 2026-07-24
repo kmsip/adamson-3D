@@ -22,19 +22,21 @@
         ← Tagasi / Back
     </a>
 
+    <button id="fullscreenButton">
+
+        ⛶
+
+    </button>
+
     <header class="viewer-header">
 
         <h1 id="model-name">Laadin.../Loading...</h1>
 
+
     </header>
 
-    <main>
+    <main class="viewer-main">
 
-        <button id="fullscreenButton">
-
-            ⛶
-
-        </button>
 
         <model-viewer id="viewer" camera-controls auto-rotate shadow-intensity="1" exposure="1.2"
             environment-image="neutral" skybox-image="neutral" loading="eager" touch-action="pan-y"
@@ -44,7 +46,30 @@
 
     </main>
 
+    <button id="infoButton">
+
+        ℹ
+
+    </button>
+
+    <div id="infoOverlay">
+
+        <img id="infoImage">
+
+    </div>
+
     <script>
+
+        document
+            .getElementById("fullscreenButton")
+            .addEventListener("click", () => {
+
+                document
+                    .getElementById("viewer")
+                    .requestFullscreen();
+
+            });
+
         const params = new URLSearchParams(window.location.search);
         const model = params.get("model");
 
@@ -69,16 +94,6 @@
         } else {
             document.getElementById("model-name").textContent = "Mudelit pole valitud / No model selected";
         }
-
-        document
-            .getElementById("fullscreenButton")
-            .addEventListener("click", () => {
-
-                document
-                    .getElementById("viewer")
-                    .requestFullscreen();
-
-            });
 
     </script>
 
