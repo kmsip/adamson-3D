@@ -60,16 +60,6 @@
 
     <script>
 
-        document
-            .getElementById("fullscreenButton")
-            .addEventListener("click", () => {
-
-                document
-                    .getElementById("viewer")
-                    .requestFullscreen();
-
-            });
-
         const params = new URLSearchParams(window.location.search);
         const model = params.get("model");
 
