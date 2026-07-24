@@ -32,24 +32,6 @@ header p {
 
 }
 
-.viewer-header {
-
-    padding-top: 15px;
-
-    padding-bottom: 5px;
-
-    text-align: center;
-
-}
-
-.viewer-header h1 {
-
-    font-size: 1.5rem;
-
-    margin: 0;
-
-}
-
 footer {
 
     text-align: center;
@@ -146,6 +128,46 @@ model-viewer {
 
 }
 
+.model-title {
+
+    position: fixed;
+
+    bottom: 20px;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+
+    background: rgba(20, 20, 20, 0.75);
+
+    backdrop-filter: blur(8px);
+
+
+    padding: 10px 22px;
+
+    border-radius: 30px;
+
+
+    z-index: 100;
+
+
+    color: white;
+
+    text-align: center;
+
+}
+
+.model-title h1 {
+
+    margin: 0;
+
+    font-size: 1.2rem;
+
+    font-weight: 500;
+
+}
+
 .credits-main {
 
     max-width: 700px;
@@ -181,7 +203,7 @@ model-viewer {
 
     border-radius: 30px;
 
-    z-index: 100;
+    z-index: 300;
 
     transition: background 0.2s;
 }
@@ -198,7 +220,7 @@ model-viewer {
 
     right: 16px;
 
-    z-index: 100;
+    z-index: 300;
 
     width: 46px;
 
