@@ -1,6 +1,7 @@
-const params = new URLSearchParams(window.location.search);
+fetch("models.json")
+    .then(response => response.json())
+    .then(models => {
 
-const model = params.get("model");
+        console.log(models);
 
-document.getElementById("viewer").src =
-    "models/" + model;
+    });
