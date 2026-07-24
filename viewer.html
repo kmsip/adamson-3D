@@ -16,7 +16,7 @@
 
 </head>
 
-<body>
+<body class="viewer-page">
 
     <a href="index.html" class="back-button">
         ← Tagasi / Back
@@ -31,7 +31,6 @@
     <header class="viewer-header">
 
         <h1 id="model-name">Laadin.../Loading...</h1>
-
 
     </header>
 
@@ -65,25 +64,27 @@
 
         if (model) {
             document.getElementById("viewer").src = "models/" + model;
+
             fetch("models.json")
                 .then(response => response.json())
                 .then(models => {
-
-                    const current = models.find(
-                        m => m.file === model
-                    );
+                    const current = models.find(m => m.file === model);
 
                     if (current) {
-
-                        document.getElementById("model-name").textContent =
-                            current.name;
-
+                        document.getElementById("model-name").textContent = current.name;
                     }
-
                 });
-        } else {
-            document.getElementById("model-name").textContent = "Mudelit pole valitud / No model selected";
         }
+
+        document
+            .getElementById("fullscreenButton")
+            .addEventListener("click", () => {
+
+                document
+                    .getElementById("viewer")
+                    .requestFullscreen();
+
+            });
 
     </script>
 
