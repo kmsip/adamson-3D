@@ -52,7 +52,9 @@
 
     <div id="infoOverlay">
 
-        <img id="infoImage">
+        <button id="closeInfo">&times;</button>
+
+        <img id="infoImage" src="" alt="Mudeli info / Model information">
 
     </div>
 
@@ -72,6 +74,25 @@
                     if (current) {
                         document.getElementById("model-name").textContent = current.name;
                     }
+                    document
+                        .getElementById("infoButton")
+                        .addEventListener("click", () => {
+
+                            document.getElementById("infoImage").src =
+                                current.info;
+
+                            document.getElementById("infoOverlay").style.display =
+                                "flex";
+
+                        });
+                    document
+                        .getElementById("closeInfo")
+                        .addEventListener("click", () => {
+
+                            document.getElementById("infoOverlay").style.display =
+                                "none";
+
+                        });
                 });
         }
 
