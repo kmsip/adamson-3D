@@ -4,7 +4,7 @@ Simple webpage for viewing 3D-models of sculptures made by the sculptor Amandus 
 If you wish to contact the museum, you can do so at amandusadamson.ee.
 
 ## Made by
-Kaisa Marie Sipelgas, with help from LLM-s
+Kaisa Marie Sipelgas, with help from LLMs, 2026
 
-2026
+Models by 
 
