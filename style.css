@@ -252,25 +252,30 @@ model-viewer {
 
     inset: 0;
 
-    background: rgba(0, 0, 0, 0.85);
+    background: rgba(0, 0, 0, 0.9);
 
     display: none;
+
+    flex-direction: column;
 
     justify-content: center;
 
     align-items: center;
 
-    z-index: 200;
+    padding: 20px;
+
+    z-index: 500;
 
 }
 
-#infoOverlay img {
 
-    max-width: 90%;
+#infoImage {
 
-    max-height: 90%;
+    max-width: 95%;
 
-    border-radius: 12px;
+    max-height: 75vh;
+
+    object-fit: contain;
 
 }
 
@@ -297,6 +302,42 @@ model-viewer {
     color: white;
 
     cursor: pointer;
+
+}
+
+#languageButtons {
+
+    display: flex;
+
+    gap: 10px;
+
+    margin-bottom: 15px;
+
+    justify-content: center;
+
+}
+
+
+.language-button {
+
+    background: #222;
+
+    color: white;
+
+    border: none;
+
+    padding: 10px 16px;
+
+    border-radius: 20px;
+
+    cursor: pointer;
+
+}
+
+
+.language-button:hover {
+
+    background: #444;
 
 }
 

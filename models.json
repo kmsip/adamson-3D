@@ -3,6 +3,10 @@
         "name": "Gladiaatorid / Gladiators (1906)",
         "file": "gladiaatorid.glb",
         "thumbnail": "thumbnails/gladiaatorid.jpg",
-        "info": "info/gladiaatorid-info-est.jpg"
+        "info": {
+            "Eesti": "info/gladiaatorid-info-est.jpg",
+            "English": "info/gladiaatorid-info-eng.jpg",
+            "Русский": "info/gladiaatorid-info-rus.jpg"
+        }
     }
 ]

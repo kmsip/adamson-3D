@@ -52,9 +52,11 @@
 
     <div id="infoOverlay">
 
-        <button id="closeInfo">&times;</button>
+        <button id="closeInfo">×</button>
 
-        <img id="infoImage" src="" alt="Mudeli info / Model information">
+        <div id="languageButtons"></div>
+
+        <img id="infoImage">
 
     </div>
 
@@ -64,37 +66,98 @@
         const model = params.get("model");
 
         if (model) {
+
             document.getElementById("viewer").src = "models/" + model;
+
 
             fetch("models.json")
                 .then(response => response.json())
                 .then(models => {
+
                     const current = models.find(m => m.file === model);
 
+
                     if (current) {
-                        document.getElementById("model-name").textContent = current.name;
+
+                        document.getElementById("model-name").textContent =
+                            current.name;
+
+
+                        const infoButton =
+                            document.getElementById("infoButton");
+
+                        const overlay =
+                            document.getElementById("infoOverlay");
+
+                        const infoImage =
+                            document.getElementById("infoImage");
+
+                        const languageButtons =
+                            document.getElementById("languageButtons");
+
+
+                        infoButton.addEventListener("click", () => {
+
+
+                            languageButtons.innerHTML = "";
+
+
+                            Object.keys(current.info).forEach(language => {
+
+
+                                const button =
+                                    document.createElement("button");
+
+
+                                button.textContent = language;
+
+                                button.className =
+                                    "language-button";
+
+
+                                button.addEventListener("click", () => {
+
+                                    infoImage.src =
+                                        current.info[language];
+
+                                });
+
+
+                                languageButtons.appendChild(button);
+
+
+                            });
+
+
+                            const firstLanguage =
+                                Object.keys(current.info)[0];
+
+
+                            infoImage.src =
+                                current.info[firstLanguage];
+
+
+                            overlay.style.display = "flex";
+
+
+                        });
+
+
                     }
-                    document
-                        .getElementById("infoButton")
-                        .addEventListener("click", () => {
 
-                            document.getElementById("infoImage").src =
-                                current.info;
 
-                            document.getElementById("infoOverlay").style.display =
-                                "flex";
-
-                        });
-                    document
-                        .getElementById("closeInfo")
-                        .addEventListener("click", () => {
-
-                            document.getElementById("infoOverlay").style.display =
-                                "none";
-
-                        });
                 });
+
+
         }
+
+        document
+            .getElementById("closeInfo")
+            .addEventListener("click", () => {
+
+                document.getElementById("infoOverlay").style.display = "none";
+
+            });
 
         document
             .getElementById("fullscreenButton")
