@@ -93,16 +93,3 @@ model-viewer {
     height: 75vh;
     background: #1a1a1a;
 }
-
-.grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-    padding: 20px;
-}
-
-@media(min-width:700px) {
-    .grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
