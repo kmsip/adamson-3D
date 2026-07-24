@@ -135,3 +135,31 @@ model-viewer {
 .back-button:hover {
     background: rgba(60, 60, 60, 0.95);
 }
+
+#fullscreenButton {
+
+    position: fixed;
+
+    top: 16px;
+
+    right: 16px;
+
+    z-index: 100;
+
+    width: 46px;
+
+    height: 46px;
+
+    border: none;
+
+    border-radius: 50%;
+
+    background: rgba(25, 25, 25, .9);
+
+    color: white;
+
+    font-size: 20px;
+
+    cursor: pointer;
+
+}

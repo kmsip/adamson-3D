@@ -30,9 +30,14 @@
 
     <main>
 
-        <model-viewer id="viewer" camera-controls auto-rotate shadow-intensity="1" exposure="1.2"
-            environment-image="neutral" skybox-image="neutral" loading="eager" touch-action="pan-y"
-            interaction-prompt="auto">
+        <button id="fullscreenButton">
+
+            ⛶
+
+        </button>
+
+        <model-viewer id="viewer" camera-controls auto-rotate shadow-intensity="1" exposure="1.2" loading="eager"
+            touch-action="pan-y" interaction-prompt="auto">
 
         </model-viewer>
 
@@ -63,6 +68,7 @@
         } else {
             document.getElementById("model-name").textContent = "Mudelit pole valitud / No model selected";
         }
+
     </script>
 
 </body>
