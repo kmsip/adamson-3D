@@ -18,18 +18,21 @@
 
 <body>
 
-    <header>
+    <a href="index.html" class="back-button">
+        ← Tagasi / Back
+    </a>
 
-        <a href="index.html">← Tagasi / Back</a>
+    <header class="viewer-header">
 
-        <h1 id="model-name">Laadin...</h1>
+        <h1 id="model-name">Laadin.../Loading...</h1>
 
     </header>
 
     <main>
 
-        <model-viewer id="viewer" camera-controls auto-rotate shadow-intensity="1" exposure="1" loading="eager"
-            touch-action="pan-y" interaction-prompt="auto">
+        <model-viewer id="viewer" camera-controls auto-rotate shadow-intensity="1" exposure="1.2"
+            environment-image="neutral" skybox-image="neutral" loading="eager" touch-action="pan-y"
+            interaction-prompt="auto">
 
         </model-viewer>
 
@@ -41,9 +44,24 @@
 
         if (model) {
             document.getElementById("viewer").src = "models/" + model;
-            document.getElementById("model-name").textContent = model.replace(".glb", "");
+            fetch("models.json")
+                .then(response => response.json())
+                .then(models => {
+
+                    const current = models.find(
+                        m => m.file === model
+                    );
+
+                    if (current) {
+
+                        document.getElementById("model-name").textContent =
+                            current.name;
+
+                    }
+
+                });
         } else {
-            document.getElementById("model-name").textContent = "No model selected";
+            document.getElementById("model-name").textContent = "Mudelit pole valitud / No model selected";
         }
     </script>
 
