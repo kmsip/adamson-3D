@@ -15,7 +15,6 @@ fetch("models.json")
             card.innerHTML = `
                 <img src="${model.thumbnail}" alt="${model.name}">
                 <h2>${model.name}</h2>
-                <p>Vajuta vaatamiseks / Tap to view</p>
             `;
 
             grid.appendChild(card);
