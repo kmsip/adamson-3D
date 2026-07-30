@@ -10,6 +10,76 @@
         }
     },
     {
+        "name": "Agu tervitab lainet / Dawn Greets the Wave (1924)",
+        "file": "agutervitablainet.glb",
+        "thumbnail": "thumbnails/agutervitablainet.jpg",
+        "info": {
+            "Eesti": "info/agutervitablainet-est.jpg",
+            "English": "info/agutervitablainet-eng.jpg",
+            "Русский": "info/agutervitablainet-rus.jpg"
+        }
+    },
+    {
+        "name": "Amor arstina / Cupid as Doctor (1901)",
+        "file": "amorarstina.glb",
+        "thumbnail": "thumbnails/amorarstina.jpg",
+        "info": {
+            "Eesti": "info/amorarstina-est.jpg",
+            "English": "info/amorarstina-eng.jpg",
+            "Русский": "info/amorarstina-rus.jpg"
+        }
+    },
+    {
+        "name": "Daami portree / Portrait of a Lady (1901)",
+        "file": "daamiportree.glb",
+        "thumbnail": "thumbnails/daamiportree.jpg",
+        "info": {
+            "Eesti": "info/daamiportree-est.jpg",
+            "English": "info/daamiportree-eng.jpg",
+            "Русский": "info/daamiportree-rus.jpg"
+        }
+    },
+    {
+        "name": "Daami portree-reljeef / Portrait-Relief of a Lady (1919)",
+        "file": "daamiportree-reljeef.glb",
+        "thumbnail": "thumbnails/daamiportree-reljeef.jpg",
+        "info": {
+            "Eesti": "info/daamiportree-reljeef-est.jpg",
+            "English": "info/daamiportree-reljeef-eng.jpg",
+            "Русский": "info/daamiportree-reljeef-rus.jpg"
+        }
+    },
+    {
+        "name": "Damon (1905)",
+        "file": "damon.glb",
+        "thumbnail": "thumbnails/damon.jpg",
+        "info": {
+            "Eesti": "info/damon-est.jpg",
+            "English": "info/damon-eng.jpg",
+            "Русский": "info/damon-rus.jpg"
+        }
+    },
+    {
+        "name": "Eugenie Adamson (1911-1912)",
+        "file": "eugenie.glb",
+        "thumbnail": "thumbnails/eugenie.jpg",
+        "info": {
+            "Eesti": "info/eugenie-est.jpg",
+            "English": "info/eugenie-eng.jpg",
+            "Русский": "info/eugenie-rus.jpg"
+        }
+    },
+    {
+        "name": "Figuraalne kompositsioon / Figural Composition",
+        "file": "figuraalnekompositsioon.glb",
+        "thumbnail": "thumbnails/figuraalnekompositsioon.jpg",
+        "info": {
+            "Eesti": "info/figuraalnekompositsioon-est.jpg",
+            "English": "info/figuraalnekompositsioon-eng.jpg",
+            "Русский": "info/figuraalnekompositsioon-rus.jpg"
+        }
+    },
+    {
         "name": "Gladiaatorid / Gladiators (1906)",
         "file": "gladiaatorid.glb",
         "thumbnail": "thumbnails/gladiaatorid.jpg",
@@ -17,6 +87,59 @@
             "Eesti": "info/gladiaatorid-info-est.jpg",
             "English": "info/gladiaatorid-info-eng.jpg",
             "Русский": "info/gladiaatorid-info-rus.jpg"
+        }
+    },
+    {
+        "name": "Igavesti võidutsev armastus / Love, Forever Victorious (1889)",
+        "file": "igavestiv6idutsevarmastus.glb",
+        "thumbnail": "thumbnails/igavestiv6idutsevarmastus.jpg",
+        "info": {
+            "Eesti": "info/igavestiv6idutsevarmastus-est.jpg",
+            "English": "info/igavestiv6idutsevarmastus-eng.jpg",
+            "Русский": "info/igavestiv6idutsevarmastus-rus.jpg"
+        }
+    },
+    {
+        "name": "Ingel lapsega / Angel with a Child",
+        "file": "ingellapsega.glb",
+        "thumbnail": "thumbnails/ingellapsega.jpg",
+        "info": {
+            "Eesti": "info/ingellapsega-est.jpg",
+            "English": "info/ingellapsega-eng.jpg",
+            "Русский": "info/ingellapsega-rus.jpg"
+        }
+    },
+    {
+        "name": "Jaan Poska portree-reljeef / Relief-Portrait of Jaan Poska (1920)",
+        "file": "jaanposka-portreereljeef.glb",
+        "thumbnail": "thumbnails/jaanposka-portreereljeef.jpg",
+        "info": {
+            "Eesti": "info/jaanposka-portreereljeef-est.jpg",
+            "English": "info/jaanposka-portreereljeef-eng.jpg",
+            "Русский": "info/jaanposka-portreereljeef-rus.jpg"
+        }
+    },
+    {
+        "name": "Kalevipoeg (1926)",
+        "file": "kalevipoeg-eskiis.glb",
+        "thumbnail": "thumbnails/kalevipoeg-eskiis.jpg",
+        "info": {
+            "Eesti": "info/kalevipoeg-eskiis-est.jpg",
+            "English": "info/kalevipoeg-eskiis-eng.jpg",
+            "Русский": "info/kalevipoeg-eskiis-rus.jpg"
+        }
+    },
+    {
+        "name": "Kalevipoeg (monument) (1933)",
+        "file": "kalevipoeg.glb",
+        "thumbnail": "thumbnails/kalevipoeg.jpg",
+        "info": {
+            "Eesti 1": "info/kalevipoeg-1-est.jpg",
+            "Eesti 2": "info/kalevipoeg-2-est.jpg",
+            "English 1": "info/kalevipoeg-1-eng.jpg",
+            "English 2": "info/kalevipoeg-3-eng.jpg",
+            "Русский 1": "info/kalevipoeg-1-rus.jpg",
+            "Русский 2": "info/kalevipoeg-2-rus.jpg"
         }
     }
 ]
