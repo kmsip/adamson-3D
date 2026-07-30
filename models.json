@@ -163,16 +163,6 @@
         }
     },
     {
-        "name": "Fr. R. Kreutzwaldi monument / Monument to Fr. R. Kreutzwald (1926)",
-        "file": "kreutzwald.glb",
-        "thumbnail": "thumbnails/kreutzwald.jpg",
-        "info": {
-            "Eesti": "info/kreutzwald-est.jpg",
-            "English": "info/kreutzwald-eng.jpg",
-            "Русский": "info/kreutzwald-rus.jpg"
-        }
-    },
-    {
         "name": "Kristlanna Colosseumi müüri ääres / Christian Woman at the Wall of Colosseum (1929)",
         "file": "kristlanna.glb",
         "thumbnail": "thumbnails/kristlanna.jpg",
