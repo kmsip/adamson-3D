@@ -307,6 +307,16 @@ model-viewer {
 
     z-index: 100;
 
+    transition: transform 0.15s ease, background-color 0.15s ease;
+
+}
+
+#infoButton:hover {
+    background: rgba(60, 60, 60, 0.9);
+}
+
+#infoButton:active {
+    transform: scale(0.9);
 }
 
 #infoOverlay {
