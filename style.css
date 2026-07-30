@@ -46,12 +46,9 @@ header p {
 
 .model-grid {
     display: grid;
-
-    gap: 12px;
-
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+    gap: 16px;
     padding: 16px;
-
-    grid-template-columns: repeat(4, 1fr);
 }
 
 .model-card {
@@ -108,50 +105,6 @@ header p {
 
 .model-card:active {
     transform: scale(0.97);
-}
-
-/* Small phones */
-@media (max-width: 400px) {
-
-    .model-grid {
-
-        grid-template-columns: repeat(3, 1fr);
-
-    }
-
-}
-
-/* Most phones */
-@media (min-width: 401px) and (max-width: 900px) {
-
-    .model-grid {
-
-        grid-template-columns: repeat(4, 1fr);
-
-    }
-
-}
-
-/* Tablets */
-@media (min-width: 901px) and (max-width: 1300px) {
-
-    .model-grid {
-
-        grid-template-columns: repeat(6, 1fr);
-
-    }
-
-}
-
-/* Desktop */
-@media (min-width: 1301px) {
-
-    .model-grid {
-
-        grid-template-columns: repeat(8, 1fr);
-
-    }
-
 }
 
 model-viewer {
