@@ -1,6 +1,7 @@
 # Adamson 3D
-Simple web app for viewing 3D models of sculptures made by the sculptor Amandus Adamson. This webpage was built for the Studio Museum of Amandus Adamson in Paldiski, Estonia.
+Simple web app for viewing 3D models of sculptures made by the Estonian sculptor Amandus Adamson (1855-1929). It is mainly optimized for use on mobile devices. 
 
+This application was built for the Studio Museum of Sculptor Amandus Adamson in Paldiski, Estonia.
 If you wish to contact the museum, you can do so at amandusadamson.ee.
 
 ## Made by
