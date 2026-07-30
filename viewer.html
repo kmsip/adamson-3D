@@ -36,11 +36,15 @@
 
         </model-viewer>
 
-        <div class="model-title">
+        <div class="model-title" id="modelTitle">
 
             <h1 id="model-name">
                 Laadin / Loading...
             </h1>
+
+            <button id="toggleTitle" aria-label="Hide title">
+                ▼
+            </button>
 
         </div>
 
@@ -161,6 +165,18 @@
 
             });
 
+        const overlay = document.getElementById("infoOverlay");
+
+        overlay.addEventListener("click", (event) => {
+
+            if (event.target === overlay) {
+
+                overlay.style.display = "none";
+
+            }
+
+        });
+
         document
             .getElementById("fullscreenButton")
             .addEventListener("click", () => {
@@ -170,6 +186,26 @@
                     .requestFullscreen();
 
             });
+
+        const titleBar = document.getElementById("modelTitle");
+        const titleText = document.getElementById("model-name");
+        const toggleTitle = document.getElementById("toggleTitle");
+
+        toggleTitle.addEventListener("click", () => {
+
+            if (titleText.style.display === "none") {
+
+                titleText.style.display = "block";
+                toggleTitle.textContent = "▼";
+
+            } else {
+
+                titleText.style.display = "none";
+                toggleTitle.textContent = "▲";
+
+            }
+
+        });
 
     </script>
 

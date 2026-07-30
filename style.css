@@ -179,6 +179,36 @@ model-viewer {
 
 }
 
+.model-title {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+}
+
+#toggleTitle {
+
+    border: none;
+
+    background: rgba(255, 255, 255, 0.15);
+
+    color: white;
+
+    border-radius: 50%;
+
+    width: 28px;
+
+    height: 28px;
+
+    cursor: pointer;
+
+    font-size: 14px;
+
+}
+
 .credits-main {
 
     max-width: 700px;
