@@ -141,5 +141,277 @@
             "Русский 1": "info/kalevipoeg-1-rus.jpg",
             "Русский 2": "info/kalevipoeg-2-rus.jpg"
         }
+    },
+    {
+        "name": "Johann Köleri hauamonument / The Grave of Johann Köler (1912)",
+        "file": "kolerihaud.glb",
+        "thumbnail": "thumbnails/kolerihaud.jpg",
+        "info": {
+            "Eesti": "info/kolerihaud-est.jpg",
+            "English": "info/kolerihaud-eng.jpg",
+            "Русский": "info/kolerihaud-rus.jpg"
+        }
+    },
+    {
+        "name": "Tisler Karl Kreidebergi portree / Portrait of Carpenter Karl Kreideberg (1875)",
+        "file": "kreideberg.glb",
+        "thumbnail": "thumbnails/kreideberg.jpg",
+        "info": {
+            "Eesti": "info/kreideberg-est.jpg",
+            "English": "info/kreideberg-eng.jpg",
+            "Русский": "info/kreideberg-rus.jpg"
+        }
+    },
+    {
+        "name": "Fr. R. Kreutzwaldi monument / Monument to Fr. R. Kreutzwald (1926)",
+        "file": "kreutzwald.glb",
+        "thumbnail": "thumbnails/kreutzwald.jpg",
+        "info": {
+            "Eesti": "info/kreutzwald-est.jpg",
+            "English": "info/kreutzwald-eng.jpg",
+            "Русский": "info/kreutzwald-rus.jpg"
+        }
+    },
+    {
+        "name": "Kristlanna Colosseumi müüri ääres / Christian Woman at the Wall of Colosseum (1929)",
+        "file": "kristlanna.glb",
+        "thumbnail": "thumbnails/kristlanna.jpg",
+        "info": {
+            "Eesti": "info/kristlanna-est.jpg",
+            "English": "info/kristlanna-eng.jpg",
+            "Русский": "info/kristlanna-rus.jpg"
+        }
+    },
+    {
+        "name": "Kristuse pea / Head of Christ (1929)",
+        "file": "kristus.glb",
+        "thumbnail": "thumbnails/kristus.jpg",
+        "info": {
+            "Eesti": "info/kristus-est.jpg",
+            "English": "info/kristus-eng.jpg",
+            "Русский": "info/kristus-rus.jpg"
+        }
+    },
+    {
+        "name": "Kristuse pea (Tartu) / Head of Christ (1922)",
+        "file": "kristusepea.glb",
+        "thumbnail": "thumbnails/kristusepea.jpg",
+        "info": {
+            "Eesti": "info/kristusepea-est.jpg",
+            "English": "info/kristusepea-eng.jpg",
+            "Русский": "info/kristusepea-rus.jpg"
+        }
+    },
+    {
+        "name": "Kristuse pea / Head of Christ (1929)",
+        "file": "kristus.glb",
+        "thumbnail": "thumbnails/kristus.jpg",
+        "info": {
+            "Eesti": "info/kristus-est.jpg",
+            "English": "info/kristus-eng.jpg",
+            "Русский": "info/kristus-rus.jpg"
+        }
+    },
+    {
+        "name": "Kuressaare monument / The Kuressaare Monument (1928)",
+        "file": "kuressaare.glb",
+        "thumbnail": "thumbnails/kuressaare.jpg",
+        "info": {
+            "Eesti": "info/kuressaare-est.jpg",
+            "English": "info/kuressaare-eng.jpg",
+            "Русский": "info/kuressaare-rus.jpg"
+        }
+    },
+    {
+        "name": "Johann Laidoneri ratsafiguur / Riding Figure of Johann Laidoner (1924)",
+        "file": "laidoner-ratsa.glb",
+        "thumbnail": "thumbnails/laidoner-ratsa.jpg",
+        "info": {
+            "Eesti": "info/laidoner-ratsa-est.jpg",
+            "English": "info/laidoner-ratsa-eng.jpg",
+            "Русский": "info/laidoner-ratsa-rus.jpg"
+        }
+    },
+    {
+        "name": "Laine ainuke suudlus / The Wave's Only Kiss (1922)",
+        "file": "laineainukesuudlus.glb",
+        "thumbnail": "thumbnails/laineainukesuudlus.jpg",
+        "info": {
+            "Eesti": "info/laineainukesuudlus-est.jpg",
+            "English": "info/laineainukesuudlus-eng.jpg",
+            "Русский": "info/laineainukesuudlus-rus.jpg"
+        }
+    },
+    {
+        "name": "Lainete ohver / Victim of the Wave (1929)",
+        "file": "laineteohver.glb",
+        "thumbnail": "thumbnails/laineteohver.jpg",
+        "info": {
+            "Eesti": "info/laineteohver-est.jpg",
+            "English": "info/laineteohver-eng.jpg",
+            "Русский": "info/laineteohver-rus.jpg"
+        }
+    },
+    {
+        "name": "Lapse portree / Portrait of a Child",
+        "file": "lapseportree.glb",
+        "thumbnail": "thumbnails/lapseportree.jpg",
+        "info": {
+            "Eesti": "info/lapseportree-est.jpg",
+            "English": "info/lapseportree-eng.jpg",
+            "Русский": "info/lapseportree-rus.jpg"
+        }
+    },
+    {
+        "name": "Vabadussõja monument Suure-Jaanis / Lembitu (1924)",
+        "file": "lembit.glb",
+        "thumbnail": "thumbnails/lembit.jpg",
+        "info": {
+            "Eesti": "info/lembit-est.jpg",
+            "English": "info/lembit-eng.jpg",
+            "Русский": "info/lembit-rus.jpg"
+        }
+    },
+    {
+        "name": "Lydia Koidula (1929)",
+        "file": "lydiakoidula.glb",
+        "thumbnail": "thumbnails/lydiakoidula.jpg",
+        "info": {
+            "Eesti": "info/lydiakoidula-est.jpg",
+            "English": "info/lydiakoidula-eng.jpg",
+            "Русский": "info/lydiakoidula-rus.jpg"
+        }
+    },
+    {
+        "name": "Memento Mori (1907)",
+        "file": "mementomori.glb",
+        "thumbnail": "thumbnails/mementomori.jpg",
+        "info": {
+            "Eesti": "info/mementomori-est.jpg",
+            "English": "info/mementomori-eng.jpg",
+            "Русский": "info/mementomori-rus.jpg"
+        }
+    },
+    {
+        "name": "Merehelinate kuulaja / One Who Listens to the Sounds of Sea (1904)",
+        "file": "merehelinatekuulaja.glb",
+        "thumbnail": "thumbnails/merehelinatekuulaja.jpg",
+        "info": {
+            "Eesti": "info/merehelinatekuulaja-est.jpg",
+            "English": "info/merehelinatekuulaja-eng.jpg",
+            "Русский": "info/merehelinatekuulaja-rus.jpg"
+        }
+    },
+    {
+        "name": "Muhu kalur / A Fisherman from Muhu (1892)",
+        "file": "muhukalur.glb",
+        "thumbnail": "thumbnails/muhukalur.jpg",
+        "info": {
+            "Eesti": "info/muhukalur-est.jpg",
+            "English": "info/muhukalur-eng.jpg",
+            "Русский": "info/muhukalur-rus.jpg"
+        }
+    },
+    {
+        "name": "Naise pea / The Head of a Woman (1924)",
+        "file": "naisepea.glb",
+        "thumbnail": "thumbnails/naisepea.jpg",
+        "info": {
+            "Eesti": "info/naisepea-est.jpg",
+            "English": "info/naisepea-eng.jpg",
+            "Русский": "info/naisepea-rus.jpg"
+        }
+    },
+    {
+        "name": "Naisfiguur / Female figure (1909)",
+        "file": "naisfiguur.glb",
+        "thumbnail": "thumbnails/naisfiguur.jpg",
+        "info": {
+            "Eesti": "info/naisfiguur-est.jpg",
+            "English": "info/naisfiguur-eng.jpg",
+            "Русский": "info/naisfiguur-rus.jpg"
+        }
+    },
+    {
+        "name": "Noorus kaob / Youth Disappears (1919)",
+        "file": "nooruskaob.glb",
+        "thumbnail": "thumbnails/nooruskaob.jpg",
+        "info": {
+            "Eesti 1": "info/nooruskaob-1-est.jpg",
+            "Eesti 2": "info/nooruskaob-2-est.jpg",
+            "English 1": "info/nooruskaob-1-eng.jpg",
+            "English 2": "info/nooruskaob-2-eng.jpg",
+            "Русский 1": "info/nooruskaob-1-rus.jpg",
+            "Русский 2": "info/nooruskaob-2-rus.jpg"
+        }
+    },
+    {
+        "name": "Pimeda mehe pea / Head of a Blind Man (1922)",
+        "file": "pimedamehepea.glb",
+        "thumbnail": "thumbnails/pimedamehepea.jpg",
+        "info": {
+            "Eesti": "info/pimedamehepea-est.jpg",
+            "English": "info/pimedamehepea-eng.jpg",
+            "Русский": "info/pimedamehepea-rus.jpg"
+        }
+    },
+    {
+        "name": "Raam Köleri maalile / Frame for a painting by J. Köler (1883)",
+        "file": "raam.glb",
+        "thumbnail": "thumbnails/raam.jpg",
+        "info": {
+            "Eesti 1": "info/raam-1-est.jpg",
+            "Eesti 2": "info/raam-2-est.jpg",
+            "English 1": "info/raam-1-eng.jpg",
+            "English 2": "info/raam-2-eng.jpg",
+            "Русский 1": "info/raam-1-rus.jpg",
+            "Русский 2": "info/raam-2-rus.jpg"
+        }
+    },
+    {
+        "name": "Vabadussõja monument Rakveres / Rakvere monument (1925)",
+        "file": "rakverevabadus.glb",
+        "thumbnail": "thumbnails/rakverevabadus.jpg",
+        "info": {
+            "Eesti": "info/rakverevabadus-est.jpg",
+            "English": "info/rakverevabadus-eng.jpg",
+            "Русский": "info/rakverevabadus-rus.jpg"
+        }
+    },
+    {
+        "name": "Russalka (1902)",
+        "file": "russalka.glb",
+        "thumbnail": "thumbnails/russalka.jpg",
+        "info": {
+            "Eesti 1": "info/russalka-1-est.jpg",
+            "Eesti 2": "info/russalka-2-est.jpg",
+            "Eesti 3": "info/russalka-3-est.jpg",
+            "English 1": "info/russalka-1-eng.jpg",
+            "English 2": "info/russalka-2-eng.jpg",
+            "English 3": "info/russalka-3-eng.jpg",
+            "Русский 1": "info/russalka-1-rus.jpg",
+            "Русский 2": "info/russalka-2-rus.jpg",
+            "Русский 3": "info/russalka-3-rus.jpg"
+        }
+    },
+    {
+        "name": "Tereki ohver / Victim of Terek (1924)",
+        "file": "terekiohver.glb",
+        "thumbnail": "thumbnails/terekiohver.jpg",
+        "info": {
+            "Eesti": "info/terekiohver-est.jpg",
+            "English": "info/terekiohver-eng.jpg",
+            "Русский": "info/terekiohver-rus.jpg"
+        }
+    },
+    {
+        "name": "Kunstniku uinuv tütreke / Portrait of the Sleeping Daughter (1923)",
+        "file": "uinuvtytreke.glb",
+        "thumbnail": "thumbnails/uinuvtytreke.jpg",
+        "info": {
+            "Eesti": "info/uinuvtytreke-est.jpg",
+            "English": "info/uinuvtytreke-eng.jpg",
+            "Русский": "info/uinuvtytreke-rus.jpg"
+        }
     }
 ]
