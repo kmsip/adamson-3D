@@ -47,11 +47,11 @@ header p {
 .model-grid {
     display: grid;
 
-    grid-template-columns: repeat(4, 1fr);
-
     gap: 12px;
 
     padding: 16px;
+
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .model-card {
@@ -110,11 +110,45 @@ header p {
     transform: scale(0.97);
 }
 
-@media (min-width: 700px) {
+/* Small phones */
+@media (max-width: 400px) {
 
     .model-grid {
 
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+}
+
+/* Most phones */
+@media (min-width: 401px) and (max-width: 900px) {
+
+    .model-grid {
+
+        grid-template-columns: repeat(4, 1fr);
+
+    }
+
+}
+
+/* Tablets */
+@media (min-width: 901px) and (max-width: 1300px) {
+
+    .model-grid {
+
+        grid-template-columns: repeat(6, 1fr);
+
+    }
+
+}
+
+/* Desktop */
+@media (min-width: 1301px) {
+
+    .model-grid {
+
+        grid-template-columns: repeat(8, 1fr);
 
     }
 
@@ -388,22 +422,6 @@ model-viewer {
 }
 
 .credits-button {
-
-    display: inline-block;
-
-    background: #222;
-
-    color: white;
-
-    text-decoration: none;
-
-    padding: 12px 24px;
-
-    border-radius: 30px;
-
-}
-
-.sources-button {
 
     display: inline-block;
 
