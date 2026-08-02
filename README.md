@@ -7,7 +7,7 @@ If you wish to contact the museum, you can do so at amandusadamson.ee.
 ## Made by
 Kaisa Marie Sipelgas, with help from LLMs, 2026
 
-Models by 
+Models by 3D Technologies R&D AS
 
 Models powered by model-viewer.
 
